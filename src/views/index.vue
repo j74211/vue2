@@ -1,18 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../../vue.js"></script>
-</head>
-<body>
+<template>
     <div id="box">
         <h2>{{msg}}</h2>
         <button @click="add">点击让money+1</button>
         <p>{{money}}</p>
     </div>
-</body>
+    </template>
 <script>
     const box = new Vue({
         el:'#box',
@@ -27,4 +19,3 @@
         }
     })
 </script>
-</html>
